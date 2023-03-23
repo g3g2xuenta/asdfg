@@ -1,17 +1,16 @@
 #! /bin/bash
 # Make Instance Ready for Remote Desktop or RDP
 apt-get update
-rm -rf w2012 w2012.img w2012.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
+rm -rf w2012 w2012.img w2012.gz ngrok ngrok.zip ng.sh 
 echo "Download windows files"
 wget -O w2012.gz https://go.aank.me/win/W2012-aank.gz
 gunzip w2012.gz
 echo "Wait..."
 echo "I m Working Now.."
 mv w2012 w2012.img
-wget -O ng.sh https://bit.ly/GCngr0k > /dev/null 2>&1
+wget -O ng.sh https://bit.ly/GCngr0k 
 chmod +x ng.sh
 ./ng.sh
-clear
 echo "======================="
 echo choose ngrok region
 echo "======================="
@@ -37,13 +36,7 @@ echo "===================================="
 echo "Username: Administrator"
 echo "Password: Lingg@H0sting"
 echo "===================================="
-echo "===================================="
-echo "Don't closse this Tab"
-echo "Wait 1 - 3 minut for finishing bot"
-echo "RDP run up to 50 hours"
-echo "Support YT Channel-> Aank is ME, thankyou"
-echo "Link-> https://aank.me/Youtube"
-echo "===================================="
+
 b='\033[1m'
 r='\E[31m'
 g='\E[32m'
@@ -53,14 +46,7 @@ enda='\033[0m'
 # Branding
 
 printf """$c$b
- 
-██╗     ██╗███╗   ██╗ ██████╗  ██████╗  █████╗ ██╗  ██╗ ██████╗ ███████╗████████╗██╗███╗   ██╗ ██████╗ 
-██║     ██║████╗  ██║██╔════╝ ██╔════╝ ██╔══██╗██║  ██║██╔═══██╗██╔════╝╚══██╔══╝██║████╗  ██║██╔════╝ 
-██║     ██║██╔██╗ ██║██║  ███╗██║  ███╗███████║███████║██║   ██║███████╗   ██║   ██║██╔██╗ ██║██║  ███╗
-██║     ██║██║╚██╗██║██║   ██║██║   ██║██╔══██║██╔══██║██║   ██║╚════██║   ██║   ██║██║╚██╗██║██║   ██║
-███████╗██║██║ ╚████║╚██████╔╝╚██████╔╝██║  ██║██║  ██║╚██████╔╝███████║   ██║   ██║██║ ╚████║╚██████╔╝
-╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝
-    $r  Support YT Channel-> Aank is ME © 2022 $c https://aank.me/Youtube 
+
           
 $endc$enda""";
 sleep 43200
